@@ -15,9 +15,25 @@ article
 {
     overflow-y: auto;
     flex: 2;
+    background-color: blue;
+    color: blueviolet;
+    border: 10cm;
 }
 aside
 {
 flex: 1;
 overflow-y: auto;
+}
+.works_on_smartphone
+{
+    width: device-width;
+    initial-value: 1.0; 
+}
+.logo
+{
+  width: 20; 
+  height: auto; 
+  background: #007bbf;
+  display:flex ;
+  flex-direction: row ;
 }
