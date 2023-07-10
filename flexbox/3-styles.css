@@ -371,13 +371,16 @@
   }
   
  /* Section Latest news ============================= */
+ /* Section SERVICES ============================= */
   /*** 4. CARD ***/
   /* Card (all styles)
       ============================= */
-     .section-latest-news .row {
+      .row {
         flex-direction: row-reverse;
       }
-  
+      .section-services .row {
+        flex-wrap: wrap;
+  }
   .card-category {
     color: var(--color-primary);
   }
