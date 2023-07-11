@@ -375,12 +375,13 @@
   /*** 4. CARD ***/
   /* Card (all styles)
       ============================= */
-      .row {
+      .section-services .row{
+        flex-wrap:wrap;
+      }
+     .section-latest-news .row {
         flex-direction: row-reverse;
       }
-      .section-services .row {
-        flex-wrap: wrap;
-  }
+      
   .card-category {
     color: var(--color-primary);
   }
