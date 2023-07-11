@@ -381,9 +381,7 @@
      .section-latest-news .row {
         flex-direction: row-reverse;
       }
-      .row {
-        flex-direction: row-reverse;
-      }
+      
   .card-category {
     color: var(--color-primary);
   }
