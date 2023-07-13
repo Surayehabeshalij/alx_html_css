@@ -159,8 +159,7 @@ h1 {
         color: #fff;
       }
       
-      
-      
+    
       
       #pros ul {
         list-style: none;
@@ -168,6 +167,7 @@ h1 {
         padding: 0;
         display: flex;
         justify-content: space-between;
+        margin-bottom: -20px;
         
       }
       
@@ -178,6 +178,17 @@ h1 {
     
     
         
+      }
+      #weather{
+        background-color: #db65ff;
+        text-align: center;
+        margin-left: -600px;
+      }
+      #weather p {
+        text-align: center;
+        margin-right: -800px;
+        background-color: #db65ff;
+        margin-top: -10px;
       }
   
 /* Media queries */
