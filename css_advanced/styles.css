@@ -74,7 +74,7 @@ h1 {
     padding: 40px;
     display: flex;
     flex: 1;
-    color: purple;
+    color: blueviolet;
     margin-left: 140px;
     
     
@@ -189,6 +189,34 @@ h1 {
         margin-right: -800px;
         background-color: #db65ff;
         margin-top: -10px;
+      }
+      #tut p{
+        padding: 50px;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+      }
+      
+    
+      
+      #tut ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+        margin-bottom: -20px;
+        text-align: center;
+         align-items: center;
+        
+      }
+      
+      #tut li {
+        font-size: 1.2em;
+        display: inline-block;
+        text-align: left;
+    
+    
+        
       }
   
 /* Media queries */
