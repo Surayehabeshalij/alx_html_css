@@ -61,13 +61,11 @@
   
     /** HEADER **/
     --header-padding: 4rem 0 0;
-   
   
     /** FOOTER **/
     --footer-padding: 5rem 0 1rem;
   
     /** NAVBAR **/
-
     --nav-item-font-family: var(--font-family-headings);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
@@ -176,18 +174,17 @@
   
   /* Grid
       ============================= */
-  
+  .row{
+    display: flex;
+  }
+
   ul.row {
     margin: -1rem;
     padding: 0;
     list-style: none;
-    display: flex;
   }
   
-  
-  
   [class*='col-'] {
-    
     margin: 1rem;
   }
   
@@ -201,9 +198,6 @@
   
   /* Navbar
       ============================= */
-  
-  
-  
   .nav {
     display: flex;
     margin: 0;
@@ -211,17 +205,18 @@
     list-style: none;
     text-align: center;
   }
-  .nav-item + .nav-item {
-    margin: var(--nav-item-margin);
-  }
+  
   .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    
   }
   
+  .nav .nav-item + .nav-item{
+    margin: var(--nav-item-margin);
+  }
+
   .nav .nav-link {
     display: block;
     padding: 0.5rem 0;
@@ -251,19 +246,18 @@
   
   /* Header
       ============================= */
-      .header-container {
-        display: flex;
-        justify-content: space-between;
-      }
+  
   .header {
     padding: var(--header-padding);
-         position: relative;
-         z-index: 3;
-         background: transparent;
+    position: relative;
+    z-index: 3;
+    background: transparent;
   }
-  
-  
- 
+
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+  }
   
   /* Footer
       ============================= */
@@ -362,18 +356,19 @@
   .section-hero .section-inner {
     padding: 10rem 40rem 2rem 0;
   }
-  
- /* Section Latest news ============================= */
- /* Section SERVICES ============================= */
+  /* Section Latest news ============================= */
+  .section-latest-news .row{
+    flex-direction: row-reverse;
+  }
+  /* Section SERVICES ============================= */
+  .section-services .row{
+    flex-wrap: wrap;
+  }
   /*** 4. CARD ***/
+  
   /* Card (all styles)
       ============================= */
-      .row {
-        flex-direction: row-reverse;
-      }
-      .section-services .row {
-        flex-wrap: wrap;
-  }
+  
   .card-category {
     color: var(--color-primary);
   }
